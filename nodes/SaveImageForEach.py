@@ -19,7 +19,7 @@ class SaveImageForEach:
 
     RETURN_TYPES = ("IMAGE", "STRING")
     FUNCTION = "save_image"
-    CATEGORY = "image/save"
+    CATEGORY = "Cmfy_Utls"
 
     def get_next_available_frame(self, directory, name):
         max_frame = -1

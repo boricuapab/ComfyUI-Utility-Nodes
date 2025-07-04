@@ -10,7 +10,7 @@ class ListItemCount:
     RETURN_TYPES = ("INT",)
     RETURN_NAMES = ("count",)
     FUNCTION = "count_items"
-    CATEGORY = "Utilities"
+    CATEGORY = "Cmfy_Utls"
 
     def count_items(self, input_list):
         return (len(input_list),)

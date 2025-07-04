@@ -16,7 +16,7 @@ class ListFiles:
     RETURN_TYPES = ("STRING", "STRING")
     RETURN_NAMES = ("file_list", "indexed_path")
     FUNCTION = "list_files"
-    CATEGORY = "Filesystem"
+    CATEGORY = "Cmfy_Utls"
     OUTPUT_IS_LIST = (True, False)
 
     def list_files(self, directory, filter, case_sensitive, load_cap, index):

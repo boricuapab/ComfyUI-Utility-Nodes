@@ -12,7 +12,7 @@ class StringTokens:
     RETURN_TYPES = ("STRING", "STRING", "INT")
     RETURN_NAMES = ("Tokens List", "Indexed Token", "token_count")
     FUNCTION = "tokenize"
-    CATEGORY = "Text Processing"
+    CATEGORY = "Cmfy_Utls"
     OUTPUT_IS_LIST = (True, False, False)
 
     def tokenize(self, input_text, tokenizer_splitter, index):

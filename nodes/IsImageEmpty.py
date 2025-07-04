@@ -10,7 +10,7 @@ class IsImageEmpty:
     RETURN_TYPES = ("BOOLEAN",)
     RETURN_NAMES = ("Is Empty",)
     FUNCTION = "check_none"
-    CATEGORY = "Utilities"
+    CATEGORY = "Cmfy_Utls"
 
     def check_none(self, image=None):
         """

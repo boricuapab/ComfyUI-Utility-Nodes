@@ -1,0 +1,24 @@
+from .nodes.IsImageEmpty import NODE_CLASS_MAPPINGS as IsImageEmpty_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS as IsImageEmpty_DISPLAY
+from .nodes.ListItemCount import NODE_CLASS_MAPPINGS as ListItemCount_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS as ListItemCount_DISPLAY
+from .nodes.ListFiles import NODE_CLASS_MAPPINGS as ListFiles_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS as ListFiles_DISPLAY
+from .nodes.ListSubdirectories import NODE_CLASS_MAPPINGS as ListSubdirectories_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS as ListSubdirectories_DISPLAY
+from .nodes.SaveImageForEach import NODE_CLASS_MAPPINGS as SaveImageForEach_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS as SaveImageForEach_DISPLAY
+from .nodes.StringTokens import NODE_CLASS_MAPPINGS as StringTokens_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS as StringTokens_DISPLAY
+
+# Merge all node mappings
+NODE_CLASS_MAPPINGS = {}
+NODE_DISPLAY_NAME_MAPPINGS = {}
+
+NODE_CLASS_MAPPINGS.update(IsImageEmpty_MAPPINGS)
+NODE_CLASS_MAPPINGS.update(ListItemCount_MAPPINGS)
+NODE_CLASS_MAPPINGS.update(ListFiles_MAPPINGS)
+NODE_CLASS_MAPPINGS.update(ListSubdirectories_MAPPINGS)
+NODE_CLASS_MAPPINGS.update(SaveImageForEach_MAPPINGS)
+NODE_CLASS_MAPPINGS.update(StringTokens_MAPPINGS)
+
+NODE_DISPLAY_NAME_MAPPINGS.update(IsImageEmpty_DISPLAY)
+NODE_DISPLAY_NAME_MAPPINGS.update(ListItemCount_DISPLAY)
+NODE_DISPLAY_NAME_MAPPINGS.update(ListFiles_DISPLAY)
+NODE_DISPLAY_NAME_MAPPINGS.update(ListSubdirectories_DISPLAY)
+NODE_DISPLAY_NAME_MAPPINGS.update(SaveImageForEach_DISPLAY)
+NODE_DISPLAY_NAME_MAPPINGS.update(StringTokens_DISPLAY)

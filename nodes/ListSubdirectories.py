@@ -18,7 +18,7 @@ class ListSubdirectories:
     RETURN_TYPES = ("STRING", "STRING")
     RETURN_NAMES = ("subdirectory_paths", "indexed_path")
     FUNCTION = "list_dirs"
-    CATEGORY = "Filesystem"
+    CATEGORY = "Cmfy_Utls"
     OUTPUT_IS_LIST = (True, False)
 
     def list_dirs(self, root_dir, depth_limit, pattern_filter, case_sensitive, load_cap, load_offset, index ):
