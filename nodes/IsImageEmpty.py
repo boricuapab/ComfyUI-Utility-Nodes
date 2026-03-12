@@ -9,8 +9,8 @@ class IsImageEmpty:
             }
         }
 
-    RETURN_TYPES = ("BOOLEAN", "IMAGE", "INT",)
-    RETURN_NAMES = ("Is Empty", "image", "int", "int_switch",)
+    RETURN_TYPES = ("IMAGE", "BOOLEAN",  "INT", "INT",)
+    RETURN_NAMES = ("image", "Is Empty",  "int", "int_switch",)
     FUNCTION = "check_none"
     CATEGORY = "Cmfy_Utls"
 
